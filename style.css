@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+#header {
+	
+}
+
+#left-side, #right-side {
+	width: 25%;
+}
+
+#center {
+	width: 50%;
+}
+
+#footer {
+	
+}
+
+.logo {
+	width: 90px;
+	height: 85px;
+	float: left;
+}
+
+.top-header-elem {
+	text-align: center;
+	font-family: courier;
+	background-color: green;
+	color: blue;
+	margin: 0;
+   padding: 0;
+}
+
+body {
+	margin: 0;
+	background-color: teal;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+a:hover {
+	color: blue;
+}

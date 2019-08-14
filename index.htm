@@ -1,7 +1,64 @@
-!DOCTYPE html
-<head>
-  <title>Kevin's Page</title>
-</head>
-<body>
-  <h1>Hello Everyone</h1>
-</body>
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+      <title>Kevin's Page</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="script" type="text/javascript" href="scripts.js">
+   </head>
+   <body>
+      <div style="width: 100%; height: 100%; display: table;">
+      <!-- Put the different sections of the page into containers with div tag -->
+      <div id="header">
+         <h1 class="top-header-elem">H  e  l  l  o    W  o  r  l  d</h1>
+         <!--<img src="./images/logo.png" alt="homepage logo" class="logo">-->
+         <nav>
+            <ul>
+               <li><img src="./images/logo.png" alt="homepage logo" class="logo"></li>
+               <li><a class="active" href="#">Home</a></li>
+               <li><a href="#">About Me</a></li>
+               <li><a href="#">Projects</a></li>
+               <li><a href="#">Contact Me</a></li>
+            </ul>
+         </nav>
+      </div>
+      <div id="left-side">
+         <blockquote>
+            “If you don’t like something, change it. If you can’t change it, change your attitude.” – Maya Angelou
+         </blockquote>
+      </div>
+      <div id="center">
+         <h2>Welcome to my page.  Feel free to look around</h2>
+         <h3 id="about-me">About Me</h3>
+         <h4>Education</h4>
+         <p>I am currently in my  final year of undergrad at CUNY John Jay
+            College of Criminal justice  studying Computer Science and Information Security  with a minor in Security Management
+         </p>
+         <h4>Hobbies</h4>
+         <p>I enjoy going to the  gym, playing basketball and
+            football with friends and reading  science-fiction and fantasy books.
+         </p>
+         <h4>Goals</h4>
+         <p>My goal is to become  a pro at building useful software that can make a  difference in the lives of
+            people around  the world
+         </p>
+         <h3  id="projects">Projects</h3>
+         <h4>
+         Cash  Register</h2> 
+         <p>For this  project I wanted  to create a  system that would  produce the  same functionality as  a cash
+            register in a supermarket. During the process of  creating the project I added more features so that it could function as a RESTful  API. Using the Dropwizard framework, MySQL database, JDBI3
+            library, HTML, CSS and JavaScript I  was able to create an API that could accept HTTP requests  and interact with a local database to create, read, update and  delete data so that users could
+            complete orders from the the web interface. 
+      </div>
+      <h4>
+      Tortoise and Hare</h2> 
+      <p>One of my  first coding assignments at school. Using C++ and object-oriented programming techniques I was able
+         to create a program that could simulate a race between a Tortoise and Hare character  based on the well-known folktale. 
+      <div id="right-side"> </div>
+      <blockquote> "Be a person who wants to put
+         punctuations on sentences, not just keep running them on... Finish something, you've got to finish something." - Kevin Hart 
+      </blockquote>
+      <div id="footer"> </div>
+      <div>
+   </body>
